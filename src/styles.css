@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAF7F0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    order: 1;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background-color: #FAF7F0;
+    font-size: 1.5rem;
+    color: #4A4947;
+}
+
+button:hover{
+    color: #B17457;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    width: 60ch;
+    max-width: 100%;
+    padding: 20px 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #c5b381;
+}
+
+.cover {
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: #FAF7F0;
+    font-weight: 700;
+}
+
+
+.contact-info {
+    padding: 100px;
+    display: flex;
+    gap: 20rem;
+    justify-content: start;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+}
+
+.rightDiv {
+    direction:rtl;
+    text-align:justify;
+}
+
+.upperDiv {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 50px 30px;
+}
+
+.menuTitleDiv{
+    width: 40vw;
+    text-align: center;
+    align-self: center;
+
+}
+
+.menuImageDiv{
+    width: 40vw;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.menuImg {
+    height: 80vh;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 40px 40px #B17457;
+}
+
+.menuDiv {
+    background-color: #D8D2C2;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.menuList {
+    width: 300px;
+    text-align: center;
+    background-color: #B17457;
+    border-radius: 20px;
+    box-shadow: 5px 5px #c5c5c5;
+    padding: 5px;
+}
+
+.appetizer {
+    display: flex;
+    gap: 200px;
+}
+
+.mainDish {
+    display: flex;
+    gap: 50px;
+}
+
+.desserts {
+    display: flex;
+    gap: 200px;
+}
+
+.beverages {
+    display: flex;
+    gap: 200px;
+}
+
+.menuList p {
+    font-size: 1.5rem;
+    width: 20ch;
+}
+
+.menuList img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.contactDiv {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    padding: 50px 30px;
+}
+
+.rightContactDiv {
+    width: 40vw;
+    height: 76.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContactDiv {
+    width: 40vw;
+    align-self: center;
+}
+.contactImage {
+    height: 60vh;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 40px 40px #B17457;
+    margin-left: 150px;
+}
+
+.contactUpper{
+    text-align: center;
+}
+
+.contactDown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+input {
+    height: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: antiquewhite;
+}
+
+.contactDown input:last-of-type {
+    height: 50px;
+}
+
+.contactDown button {
+    border: 1px solid black;
+    background-color: aliceblue;
+    font-size: 14px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
