@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FAF7F0;
+    background: linear-gradient(#B79891, #94716B);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -22,7 +22,7 @@ nav {
 
 button {
     border: none;
-    background-color: #FAF7F0;
+    background-color: #B79891;
     font-size: 1.5rem;
     color: #4A4947;
 }
@@ -59,7 +59,7 @@ footer {
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
     width: auto;
     padding: 10px;
 }
